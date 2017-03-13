@@ -1,0 +1,16 @@
+
+<h1>Welcome!</h1>
+<hr>
+<h2><%= @user.full_name %></h2>
+<br>
+<h2>Your Info-</h2>
+<h3>Username: <%= @user.user_name %></h3>
+<h3>Address: <%= @user.address %></h3>
+<h3>City: <%= @user.city %></h3>
+<h3>State: <%= @user.state %></h3>
+<h3>Zip: <%= @user.zip_code %></h3>
+<h3>Country: <%= @user.country %></h3>
+<h3>Email: <%= @user.email %></h3>
+<h3>Home phone: <%=@user.phones.pluck(:homephone)%></h3>
+<h3>Cell phone: <%=@user.phones.pluck(:cellphone)%></h3>
+<h3>Work phone: <%=@user.phones.pluck(:workphone)%></h3>
