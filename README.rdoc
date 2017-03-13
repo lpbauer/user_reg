@@ -1,3 +1,9 @@
+This app is an attempt to flesh out a registration system for an app.  The app has no purpose other than to allow a user to create an account.  When an account is successfully created the user is redirected to a page listing their account information (minus the user's password).  If a user already created an account they are redirected to a page with their account information.  
+
+TODO:  Currently the phone numbers are printing out as single string arrays rather than a more typical phone number.  
+TODO:  Create restrictions in what a username and password may and may not include.
+TODO:  Allow a user to add or delete information from their account.
+
 == README
 
 This README would normally document whatever steps are necessary to get the
